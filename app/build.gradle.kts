@@ -66,10 +66,10 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.datastore)
     implementation(libs.splashscreen)
-    implementation(libs.androidx.espresso.contrib)
+    implementation("androidx.test.espresso:espresso-contrib:3.6.1")
     implementation(libs.firebase.crashlytics.buildtools)
     coreLibraryDesugaring(libs.android.desugaring)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
 }
